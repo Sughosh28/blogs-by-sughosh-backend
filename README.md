@@ -36,4 +36,6 @@ The application will be available at http://localhost:8089.
 
 API Documentation
 
-The API documentation can be accessed at http://localhost:8089/swagger-ui.html once the application is running.
+The API documentation can be accessed at 
+http://localhost:8089/swagger-ui/index.html#/ 
+once the application is running.
