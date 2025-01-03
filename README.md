@@ -23,13 +23,17 @@ Backend for Blogs Application, built with Spring Boot, featuring RESTful APIs, u
 
    git clone https://github.com/Sughosh28/blog-backend.git
    cd blog-backend
+
 Build the project using Maven:
 
 mvn clean install
+
 Run the application:
 
 mvn spring-boot:run
+
 The application will be available at http://localhost:8089.
 
 API Documentation
+
 The API documentation can be accessed at http://localhost:8089/swagger-ui.html once the application is running.
