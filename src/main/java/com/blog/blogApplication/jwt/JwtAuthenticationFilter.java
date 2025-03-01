@@ -1,4 +1,4 @@
-package com.blog.blogApplication.JwtFiles;
+package com.blog.blogApplication.jwt;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

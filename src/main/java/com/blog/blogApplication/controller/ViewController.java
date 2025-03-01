@@ -1,7 +1,6 @@
-package com.blog.blogApplication.Controller;
+package com.blog.blogApplication.controller;
 
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Repository.UsersRepository;
+import com.blog.blogApplication.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
 import org.springframework.stereotype.Controller;

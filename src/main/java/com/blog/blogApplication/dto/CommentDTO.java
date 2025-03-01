@@ -1,7 +1,7 @@
-package com.blog.blogApplication.DTO;
+package com.blog.blogApplication.dto;
 
-import com.blog.blogApplication.Model.Posts;
-import com.blog.blogApplication.Model.Users;
+import com.blog.blogApplication.model.Posts;
+import com.blog.blogApplication.model.Users;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;

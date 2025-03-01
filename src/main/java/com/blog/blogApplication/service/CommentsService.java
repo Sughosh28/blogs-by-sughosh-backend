@@ -1,21 +1,19 @@
-package com.blog.blogApplication.Service;
+package com.blog.blogApplication.service;
 
-import com.blog.blogApplication.DTO.CommentDTO;
-import com.blog.blogApplication.JwtFiles.JwtService;
-import com.blog.blogApplication.Model.Comments;
-import com.blog.blogApplication.Model.Posts;
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Repository.CommentsRepository;
-import com.blog.blogApplication.Repository.PostsRepo;
-import com.blog.blogApplication.Repository.UsersRepository;
+import com.blog.blogApplication.dto.CommentDTO;
+import com.blog.blogApplication.jwt.JwtService;
+import com.blog.blogApplication.model.Comments;
+import com.blog.blogApplication.model.Posts;
+import com.blog.blogApplication.model.Users;
+import com.blog.blogApplication.repository.CommentsRepository;
+import com.blog.blogApplication.repository.PostsRepo;
+import com.blog.blogApplication.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestHeader;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.List;
 

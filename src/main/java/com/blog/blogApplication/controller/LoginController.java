@@ -1,17 +1,16 @@
-package com.blog.blogApplication.Controller;
+package com.blog.blogApplication.controller;
 
-import com.blog.blogApplication.JwtFiles.BlogUserDetailService;
+import com.blog.blogApplication.jwt.BlogUserDetailService;
 
-import com.blog.blogApplication.JwtFiles.JwtService;
-import com.blog.blogApplication.Records.LoginForm;
-import com.blog.blogApplication.Repository.UsersRepository;
-import com.blog.blogApplication.Service.MailService;
+import com.blog.blogApplication.jwt.JwtService;
+import com.blog.blogApplication.records.LoginForm;
+import com.blog.blogApplication.repository.UsersRepository;
+import com.blog.blogApplication.service.MailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin(origins = "*")
 @RestController
 public class LoginController {
     @Autowired

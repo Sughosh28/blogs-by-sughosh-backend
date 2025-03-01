@@ -1,12 +1,12 @@
-package com.blog.blogApplication.Service;
+package com.blog.blogApplication.service;
 
-import com.blog.blogApplication.DTO.PostsDTO;
-import com.blog.blogApplication.DTO.UserProfileDTO;
-import com.blog.blogApplication.JwtFiles.JwtService;
-import com.blog.blogApplication.Model.Posts;
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Repository.PostsRepo;
-import com.blog.blogApplication.Repository.UsersRepository;
+import com.blog.blogApplication.dto.PostsDTO;
+import com.blog.blogApplication.dto.UserProfileDTO;
+import com.blog.blogApplication.jwt.JwtService;
+import com.blog.blogApplication.model.Posts;
+import com.blog.blogApplication.model.Users;
+import com.blog.blogApplication.repository.PostsRepo;
+import com.blog.blogApplication.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

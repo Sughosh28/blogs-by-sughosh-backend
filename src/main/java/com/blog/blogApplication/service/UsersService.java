@@ -1,15 +1,15 @@
-package com.blog.blogApplication.Service;
+package com.blog.blogApplication.service;
 
-import com.blog.blogApplication.DTO.AuthResponse;
-import com.blog.blogApplication.DTO.UserProfileDTO;
-import com.blog.blogApplication.DTO.UsernameUpdateDTO;
-import com.blog.blogApplication.DTO.UsersDTO;
-import com.blog.blogApplication.JwtFiles.BlogUserDetailService;
-import com.blog.blogApplication.JwtFiles.JwtService;
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Records.LoginForm;
-import com.blog.blogApplication.Repository.UsersRepository;
-import com.blog.blogApplication.Records.UserProfileRequest;
+import com.blog.blogApplication.dto.AuthResponse;
+import com.blog.blogApplication.dto.UserProfileDTO;
+import com.blog.blogApplication.dto.UsernameUpdateDTO;
+import com.blog.blogApplication.dto.UsersDTO;
+import com.blog.blogApplication.jwt.BlogUserDetailService;
+import com.blog.blogApplication.jwt.JwtService;
+import com.blog.blogApplication.model.Users;
+import com.blog.blogApplication.records.LoginForm;
+import com.blog.blogApplication.repository.UsersRepository;
+import com.blog.blogApplication.records.UserProfileRequest;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;
 import jakarta.validation.Valid;

@@ -1,13 +1,11 @@
-package com.blog.blogApplication.JwtFiles;
+package com.blog.blogApplication.jwt;
 
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Repository.UsersRepository;
+import com.blog.blogApplication.repository.UsersRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.oauth2.core.oidc.user.OidcUser;
 import org.springframework.stereotype.Service;
 
 import javax.crypto.SecretKey;

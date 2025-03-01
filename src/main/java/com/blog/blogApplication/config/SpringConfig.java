@@ -1,7 +1,7 @@
-package com.blog.blogApplication.Config;
+package com.blog.blogApplication.config;
 
-import com.blog.blogApplication.JwtFiles.BlogUserDetailService;
-import com.blog.blogApplication.JwtFiles.JwtAuthenticationFilter;
+import com.blog.blogApplication.jwt.BlogUserDetailService;
+import com.blog.blogApplication.jwt.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

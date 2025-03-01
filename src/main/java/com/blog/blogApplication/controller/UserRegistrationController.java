@@ -1,8 +1,8 @@
-package com.blog.blogApplication.Controller;
+package com.blog.blogApplication.controller;
 
-import com.blog.blogApplication.DTO.UsersDTO;
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Service.UsersService;
+import com.blog.blogApplication.dto.UsersDTO;
+import com.blog.blogApplication.model.Users;
+import com.blog.blogApplication.service.UsersService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "*")
 @RestController
 public class UserRegistrationController {
     @Autowired

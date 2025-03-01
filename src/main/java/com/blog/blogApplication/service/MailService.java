@@ -1,11 +1,11 @@
-package com.blog.blogApplication.Service;
+package com.blog.blogApplication.service;
 
-import com.blog.blogApplication.DTO.AuthResponse;
-import com.blog.blogApplication.JwtFiles.BlogUserDetailService;
-import com.blog.blogApplication.JwtFiles.JwtService;
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Records.LoginForm;
-import com.blog.blogApplication.Repository.UsersRepository;
+import com.blog.blogApplication.dto.AuthResponse;
+import com.blog.blogApplication.jwt.BlogUserDetailService;
+import com.blog.blogApplication.jwt.JwtService;
+import com.blog.blogApplication.model.Users;
+import com.blog.blogApplication.records.LoginForm;
+import com.blog.blogApplication.repository.UsersRepository;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;

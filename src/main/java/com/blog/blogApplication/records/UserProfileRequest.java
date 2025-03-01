@@ -1,4 +1,4 @@
-package com.blog.blogApplication.Records;
+package com.blog.blogApplication.records;
 
 
 public record UserProfileRequest(  String username,

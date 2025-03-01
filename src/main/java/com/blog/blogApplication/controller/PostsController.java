@@ -1,11 +1,10 @@
-package com.blog.blogApplication.Controller;
+package com.blog.blogApplication.controller;
 
-import com.blog.blogApplication.DTO.PostsDTO;
-import com.blog.blogApplication.JwtFiles.JwtService;
-import com.blog.blogApplication.Model.Posts;
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Repository.PostsRepo;
-import com.blog.blogApplication.Service.PostsService;
+import com.blog.blogApplication.dto.PostsDTO;
+import com.blog.blogApplication.jwt.JwtService;
+import com.blog.blogApplication.model.Posts;
+import com.blog.blogApplication.repository.PostsRepo;
+import com.blog.blogApplication.service.PostsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -15,7 +14,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;

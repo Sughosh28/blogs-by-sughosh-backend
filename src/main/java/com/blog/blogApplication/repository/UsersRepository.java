@@ -1,6 +1,6 @@
-package com.blog.blogApplication.Repository;
+package com.blog.blogApplication.repository;
 
-import com.blog.blogApplication.Model.Users;
+import com.blog.blogApplication.model.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

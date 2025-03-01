@@ -1,14 +1,14 @@
-package com.blog.blogApplication.Controller;
+package com.blog.blogApplication.controller;
 
-import com.blog.blogApplication.DTO.UsernameUpdateDTO;
-import com.blog.blogApplication.DTO.UsersDTO;
-import com.blog.blogApplication.JwtFiles.JwtService;
-import com.blog.blogApplication.Model.Users;
-import com.blog.blogApplication.Records.ResetPasswordRequest;
-import com.blog.blogApplication.Repository.UsersRepository;
-import com.blog.blogApplication.Service.MailService;
-import com.blog.blogApplication.Service.UsersService;
-import com.blog.blogApplication.Records.UserProfileRequest;
+import com.blog.blogApplication.dto.UsernameUpdateDTO;
+import com.blog.blogApplication.dto.UsersDTO;
+import com.blog.blogApplication.jwt.JwtService;
+import com.blog.blogApplication.model.Users;
+import com.blog.blogApplication.records.ResetPasswordRequest;
+import com.blog.blogApplication.repository.UsersRepository;
+import com.blog.blogApplication.service.MailService;
+import com.blog.blogApplication.service.UsersService;
+import com.blog.blogApplication.records.UserProfileRequest;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-@CrossOrigin( origins = "*")
 @RestController
 @RequestMapping("/api/users")
 @Tag(name = "My API", description = "API for Login Signup")

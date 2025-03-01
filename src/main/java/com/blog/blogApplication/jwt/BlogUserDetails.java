@@ -1,6 +1,6 @@
-package com.blog.blogApplication.JwtFiles;
+package com.blog.blogApplication.jwt;
 
-import com.blog.blogApplication.Model.Users;
+import com.blog.blogApplication.model.Users;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

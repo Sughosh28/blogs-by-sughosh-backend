@@ -1,10 +1,10 @@
-package com.blog.blogApplication.Controller;
+package com.blog.blogApplication.controller;
 
 
-import com.blog.blogApplication.DTO.CommentDTO;
-import com.blog.blogApplication.JwtFiles.JwtService;
-import com.blog.blogApplication.Model.Comments;
-import com.blog.blogApplication.Service.CommentsService;
+import com.blog.blogApplication.dto.CommentDTO;
+import com.blog.blogApplication.jwt.JwtService;
+import com.blog.blogApplication.model.Comments;
+import com.blog.blogApplication.service.CommentsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
