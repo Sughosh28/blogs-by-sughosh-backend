@@ -34,10 +34,10 @@ public class SpringConfig  implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:5173", "http://blogsbysughosh.xyz")
+                .allowedOrigins("*")
                 .allowedMethods("GET", "POST", "PUT", "DELETE","PATCH", "OPTIONS")
                 .allowedHeaders("Authorization", "*")
-                .allowCredentials(true);
+                .allowCredentials(false);
     }
 
     @Autowired
@@ -92,11 +92,11 @@ public class SpringConfig  implements WebMvcConfigurer {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173","http://blogsbysughosh.xyz"));
+        configuration.setAllowedOrigins(Arrays.asList("*"));
 
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
-        configuration.setAllowCredentials(true);
+        configuration.setAllowCredentials(false);
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", configuration);
